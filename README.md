@@ -17,3 +17,25 @@
   - geom_line()
   - labs()
 - t.test()
+
+### Functions for Food Price Forecasts - Unguided
+##### In this project I wrote a function that regurns the average price of a commodity from a csv file and then wrote a forecast function.
+#### Techniques Used
+- Data Manipulation
+- Data Visualization
+- Importing and Cleaning Data
+#### Technologies/Packages USed
+- readr
+  - read_csv()
+- data.table
+  - fread()
+- lubridate
+  - ymd()
+  - year()
+  - month()
+- ggplot2
+  - geom_line()
+  - theme_bw()
+- dplyr
+- forecast
+
